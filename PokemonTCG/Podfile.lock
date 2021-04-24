@@ -1,0 +1,40 @@
+PODS:
+  - ImageViewer (0.1.4)
+  - Realm (10.7.3):
+    - Realm/Headers (= 10.7.3)
+  - Realm/Headers (10.7.3)
+  - RealmSwift (10.7.3):
+    - Realm (= 10.7.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - ImageViewer (from `https://github.com/tovkal/ImageViewer`)
+  - RealmSwift
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ImageViewer:
+    :git: https://github.com/tovkal/ImageViewer
+
+CHECKOUT OPTIONS:
+  ImageViewer:
+    :commit: 76944a7b1192d1a0af6767f33804a69bd2d9e743
+    :git: https://github.com/tovkal/ImageViewer
+
+SPEC CHECKSUMS:
+  ImageViewer: 0c79f53859883f4215b0ceeac4c7e4d3caede8a3
+  Realm: 472ea9ad72cee02df140dfd2926f482df6addbd2
+  RealmSwift: 7462f44bc04b61505ef70e4863ee7ce48fa12ede
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: 9c8d5695bed4dff54b0ece7fc57851b81f45a4be
+
+COCOAPODS: 1.10.0
