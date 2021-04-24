@@ -10,5 +10,6 @@ target 'PokemonTCG' do
   pod 'SDWebImage', '~> 5.0'
   pod 'ImageViewer', :git => 'https://github.com/tovkal/ImageViewer'
   pod 'RealmSwift'
+  pod 'SwifterSwift'
 
 end
