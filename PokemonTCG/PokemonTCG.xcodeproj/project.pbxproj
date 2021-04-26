@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5156BEE02636D70F0020EB4A /* CardManagerDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEDF2636D70F0020EB4A /* CardManagerDB.swift */; };
+		5156BEE32636D7A20020EB4A /* CardDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEE22636D7A20020EB4A /* CardDB.swift */; };
+		5156BEE62636E77C0020EB4A /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEE52636E77C0020EB4A /* RealmExtension.swift */; };
 		5194E8B526343F5B00882553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5194E8B426343F5B00882553 /* AppDelegate.swift */; };
 		5194E8B726343F5B00882553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5194E8B626343F5B00882553 /* SceneDelegate.swift */; };
 		5194E8BE26343F5D00882553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5194E8BD26343F5D00882553 /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		34040A478451468FD14627A1 /* Pods-PokemonTCG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonTCG.debug.xcconfig"; path = "Target Support Files/Pods-PokemonTCG/Pods-PokemonTCG.debug.xcconfig"; sourceTree = "<group>"; };
+		5156BEDF2636D70F0020EB4A /* CardManagerDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManagerDB.swift; sourceTree = "<group>"; };
+		5156BEE22636D7A20020EB4A /* CardDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDB.swift; sourceTree = "<group>"; };
+		5156BEE52636E77C0020EB4A /* RealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
 		5194E8B126343F5B00882553 /* PokemonTCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonTCG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5194E8B426343F5B00882553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5194E8B626343F5B00882553 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +125,7 @@
 			children = (
 				5194E8F82634426E00882553 /* StringExtension.swift */,
 				5194E8F92634426E00882553 /* UIImageViewExtension.swift */,
+				5156BEE52636E77C0020EB4A /* RealmExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				5194E8E82634420700882553 /* Card.swift */,
+				5156BEE22636D7A20020EB4A /* CardDB.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				5194E9052634438000882553 /* CardManagerConnections.swift */,
+				5156BEDF2636D70F0020EB4A /* CardManagerDB.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -348,12 +357,15 @@
 				5194E8B526343F5B00882553 /* AppDelegate.swift in Sources */,
 				5194E90D263446C800882553 /* CustomTabBarController.swift in Sources */,
 				5194E8E92634420700882553 /* Card.swift in Sources */,
+				5156BEE62636E77C0020EB4A /* RealmExtension.swift in Sources */,
+				5156BEE32636D7A20020EB4A /* CardDB.swift in Sources */,
 				5194E9192634484800882553 /* CardCollectionViewCell.swift in Sources */,
 				5194E8FA2634426E00882553 /* StringExtension.swift in Sources */,
 				5194E9122634478B00882553 /* CardListViewController.swift in Sources */,
 				5194E8FB2634426E00882553 /* UIImageViewExtension.swift in Sources */,
 				5194E8B726343F5B00882553 /* SceneDelegate.swift in Sources */,
 				5194E9062634438000882553 /* CardManagerConnections.swift in Sources */,
+				5156BEE02636D70F0020EB4A /* CardManagerDB.swift in Sources */,
 				5194E8DD2634418500882553 /* Constants.swift in Sources */,
 				5194E8F52634426300882553 /* CardDetailViewController.swift in Sources */,
 			);

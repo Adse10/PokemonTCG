@@ -12,9 +12,10 @@ class CustomTabBarController: UITabBarController {
     // Creamos dos propiedades perezosas (lazy var) para cada uno de los controladores que tenemos
     lazy var allCardTabBar: UIViewController = {
         let allCardTab = CardListViewController()
+        let navigationController = UINavigationController(rootViewController: allCardTab)
         let tabBarItem = UITabBarItem(title: "all.cards".localize(), image: nil, selectedImage: nil)
-        allCardTab.tabBarItem = tabBarItem
-        return allCardTab
+        navigationController.tabBarItem = tabBarItem
+        return navigationController
     }()
 
     override func viewWillAppear(_ animated: Bool) {

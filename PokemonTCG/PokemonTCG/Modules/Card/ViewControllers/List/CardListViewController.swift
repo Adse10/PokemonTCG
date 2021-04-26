@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CardListViewController: UIViewController {
+final class CardListViewController: UIViewController {
     
     // MARK: - Outlets
     @IBOutlet weak var collectionView: UICollectionView!
@@ -77,7 +77,14 @@ extension CardListViewController: UICollectionViewDataSource {
 }
 
 extension CardListViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        // Vamos a ir al detalle de una carta
+        if let idCard = listCards[indexPath.row].idCard {
+            let controller = CardDetailViewController.init(idCard:idCard)
+            navigationController?.pushViewController(controller, animated: true)
+        }
+    }
 }
 
 extension CardListViewController: UICollectionViewDelegateFlowLayout {

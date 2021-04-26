@@ -12,4 +12,5 @@
 "types" = "Tipos";
 "hp" = "HP";
 "all.cards" = "Todas las cartas";
-"favourite" = "Favorita";
+"favourite" = "Hacer favorita";
+"is.favourite" = "Ya es favorita";
