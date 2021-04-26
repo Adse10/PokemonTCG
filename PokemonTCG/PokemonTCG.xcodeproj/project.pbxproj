@@ -10,6 +10,14 @@
 		5156BEE02636D70F0020EB4A /* CardManagerDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEDF2636D70F0020EB4A /* CardManagerDB.swift */; };
 		5156BEE32636D7A20020EB4A /* CardDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEE22636D7A20020EB4A /* CardDB.swift */; };
 		5156BEE62636E77C0020EB4A /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEE52636E77C0020EB4A /* RealmExtension.swift */; };
+		5156BEED2636EBCC0020EB4A /* CardSetManagerConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEEC2636EBCC0020EB4A /* CardSetManagerConnections.swift */; };
+		5156BEF02636ECA10020EB4A /* CardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEEF2636ECA10020EB4A /* CardSet.swift */; };
+		5156BEF62636EF530020EB4A /* CardSetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEF42636EF530020EB4A /* CardSetListViewController.swift */; };
+		5156BEF72636EF530020EB4A /* CardSetListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5156BEF52636EF530020EB4A /* CardSetListViewController.xib */; };
+		5156BEFC2636EF610020EB4A /* CardSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEFA2636EF610020EB4A /* CardSetDetailViewController.swift */; };
+		5156BEFD2636EF610020EB4A /* CardSetDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5156BEFB2636EF610020EB4A /* CardSetDetailViewController.xib */; };
+		5156BF012636F13A0020EB4A /* CardSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156BEFF2636F13A0020EB4A /* CardSetTableViewCell.swift */; };
+		5156BF022636F13A0020EB4A /* CardSetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5156BF002636F13A0020EB4A /* CardSetTableViewCell.xib */; };
 		5194E8B526343F5B00882553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5194E8B426343F5B00882553 /* AppDelegate.swift */; };
 		5194E8B726343F5B00882553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5194E8B626343F5B00882553 /* SceneDelegate.swift */; };
 		5194E8BE26343F5D00882553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5194E8BD26343F5D00882553 /* Assets.xcassets */; };
@@ -35,6 +43,14 @@
 		5156BEDF2636D70F0020EB4A /* CardManagerDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManagerDB.swift; sourceTree = "<group>"; };
 		5156BEE22636D7A20020EB4A /* CardDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDB.swift; sourceTree = "<group>"; };
 		5156BEE52636E77C0020EB4A /* RealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
+		5156BEEC2636EBCC0020EB4A /* CardSetManagerConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetManagerConnections.swift; sourceTree = "<group>"; };
+		5156BEEF2636ECA10020EB4A /* CardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSet.swift; sourceTree = "<group>"; };
+		5156BEF42636EF530020EB4A /* CardSetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetListViewController.swift; sourceTree = "<group>"; };
+		5156BEF52636EF530020EB4A /* CardSetListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardSetListViewController.xib; sourceTree = "<group>"; };
+		5156BEFA2636EF610020EB4A /* CardSetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetDetailViewController.swift; sourceTree = "<group>"; };
+		5156BEFB2636EF610020EB4A /* CardSetDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardSetDetailViewController.xib; sourceTree = "<group>"; };
+		5156BEFF2636F13A0020EB4A /* CardSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetTableViewCell.swift; sourceTree = "<group>"; };
+		5156BF002636F13A0020EB4A /* CardSetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardSetTableViewCell.xib; sourceTree = "<group>"; };
 		5194E8B126343F5B00882553 /* PokemonTCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonTCG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5194E8B426343F5B00882553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5194E8B626343F5B00882553 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +86,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5156BEE82636EBA60020EB4A /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				5156BEEC2636EBCC0020EB4A /* CardSetManagerConnections.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		5156BEE92636EBAD0020EB4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5156BEF32636EF340020EB4A /* List */,
+				5156BEF22636EF2F0020EB4A /* Detail */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5156BEEA2636EBB40020EB4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5156BEEF2636ECA10020EB4A /* CardSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5156BEEB2636EBB80020EB4A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5156BEFF2636F13A0020EB4A /* CardSetTableViewCell.swift */,
+				5156BF002636F13A0020EB4A /* CardSetTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5156BEF22636EF2F0020EB4A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5156BEFA2636EF610020EB4A /* CardSetDetailViewController.swift */,
+				5156BEFB2636EF610020EB4A /* CardSetDetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5156BEF32636EF340020EB4A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				5156BEF42636EF530020EB4A /* CardSetListViewController.swift */,
+				5156BEF52636EF530020EB4A /* CardSetListViewController.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		5194E8A826343F5B00882553 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +222,10 @@
 		5194E8E4263441C700882553 /* Sets */ = {
 			isa = PBXGroup;
 			children = (
+				5156BEEB2636EBB80020EB4A /* Cells */,
+				5156BEEA2636EBB40020EB4A /* Model */,
+				5156BEE92636EBAD0020EB4A /* ViewControllers */,
+				5156BEE82636EBA60020EB4A /* NetworkManager */,
 			);
 			path = Sets;
 			sourceTree = "<group>";
@@ -296,9 +368,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5156BEFD2636EF610020EB4A /* CardSetDetailViewController.xib in Resources */,
 				5194E8C126343F5D00882553 /* LaunchScreen.storyboard in Resources */,
 				5194E8E02634419F00882553 /* Localizable.strings in Resources */,
 				5194E8BE26343F5D00882553 /* Assets.xcassets in Resources */,
+				5156BF022636F13A0020EB4A /* CardSetTableViewCell.xib in Resources */,
+				5156BEF72636EF530020EB4A /* CardSetListViewController.xib in Resources */,
 				5194E8F62634426300882553 /* CardDetailViewController.xib in Resources */,
 				5194E91A2634484800882553 /* CardCollectionViewCell.xib in Resources */,
 				5194E9132634478B00882553 /* CardListViewController.xib in Resources */,
@@ -355,18 +430,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				5194E8B526343F5B00882553 /* AppDelegate.swift in Sources */,
+				5156BEF62636EF530020EB4A /* CardSetListViewController.swift in Sources */,
 				5194E90D263446C800882553 /* CustomTabBarController.swift in Sources */,
 				5194E8E92634420700882553 /* Card.swift in Sources */,
 				5156BEE62636E77C0020EB4A /* RealmExtension.swift in Sources */,
+				5156BF012636F13A0020EB4A /* CardSetTableViewCell.swift in Sources */,
 				5156BEE32636D7A20020EB4A /* CardDB.swift in Sources */,
 				5194E9192634484800882553 /* CardCollectionViewCell.swift in Sources */,
 				5194E8FA2634426E00882553 /* StringExtension.swift in Sources */,
+				5156BEED2636EBCC0020EB4A /* CardSetManagerConnections.swift in Sources */,
 				5194E9122634478B00882553 /* CardListViewController.swift in Sources */,
 				5194E8FB2634426E00882553 /* UIImageViewExtension.swift in Sources */,
 				5194E8B726343F5B00882553 /* SceneDelegate.swift in Sources */,
 				5194E9062634438000882553 /* CardManagerConnections.swift in Sources */,
 				5156BEE02636D70F0020EB4A /* CardManagerDB.swift in Sources */,
+				5156BEFC2636EF610020EB4A /* CardSetDetailViewController.swift in Sources */,
 				5194E8DD2634418500882553 /* Constants.swift in Sources */,
+				5156BEF02636ECA10020EB4A /* CardSet.swift in Sources */,
 				5194E8F52634426300882553 /* CardDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

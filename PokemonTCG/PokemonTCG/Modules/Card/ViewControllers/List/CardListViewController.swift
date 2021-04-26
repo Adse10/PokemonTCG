@@ -31,13 +31,13 @@ final class CardListViewController: UIViewController {
     
     private func loadData(){
         managerConnection.getListCard(page: page) { cards in
-            self.reloadCollection(cards)
+            self.processData(cards)
         } failure: { error in
             print("Ha ocurrido un error")
         }
     }
     
-    private func reloadCollection(_ response: [Card]){
+    private func processData(_ response: [Card]){
         self.isLoadingPage = false
         // Añadimos elemento al array
         if self.listCards.count != 0 {

@@ -13,4 +13,6 @@ struct Endpoints {
     static let main = "https://api.pokemontcg.io/v2/"
     static let listCard = "cards"
     static let detailCard = "cards/"
+    static let listSet = "sets"
+    static let detailSet = "sets/"
 }

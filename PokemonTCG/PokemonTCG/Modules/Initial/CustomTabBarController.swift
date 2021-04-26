@@ -17,10 +17,19 @@ class CustomTabBarController: UITabBarController {
         navigationController.tabBarItem = tabBarItem
         return navigationController
     }()
+    
+    // Tab de sets
+    lazy var setTabBar: UIViewController = {
+        let setTab = CardSetListViewController()
+        let navigationController = UINavigationController(rootViewController: setTab)
+        let tabBarItem = UITabBarItem(title: "all.sets".localize(), image: nil, selectedImage: nil)
+        navigationController.tabBarItem = tabBarItem
+        return navigationController
+    }()
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.viewControllers = [allCardTabBar]
+        self.viewControllers = [allCardTabBar, setTabBar]
     }
 
 }
